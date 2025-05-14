@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+}
+h1:hover{
+    animation-name: enlarge;
+    animation-duration: 0.8s;
+}
+@keyframes enlarge{
+    50%{
+        font-size: 2.3em;
+    }
+}
